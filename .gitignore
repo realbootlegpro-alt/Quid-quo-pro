@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.log
+.tools/
+.pydeps/
+batches/*/ep_*/3_scenes/*.blend1

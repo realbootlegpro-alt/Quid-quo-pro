@@ -1,0 +1,32 @@
+{
+  "characters/blastoise.glb": {
+    "id": "blastoise",
+    "category": "characters",
+    "size_bytes": 547560,
+    "mtime_ns": 1795290804538126705,
+    "meta_file": "_index/profiles/blastoise.meta.json",
+    "norm_blend": "_index/profiles/blastoise_norm.blend",
+    "preview_file": "_index/profiles/blastoise_grid.png",
+    "updated_at": "2026-11-21T20:10:14.171328+00:00"
+  },
+  "characters/Dawn_textured.glb": {
+    "id": "dawn_textured",
+    "category": "characters",
+    "size_bytes": 4196840,
+    "mtime_ns": 1795290806936991344,
+    "meta_file": "_index/profiles/dawn_textured.meta.json",
+    "norm_blend": "_index/profiles/dawn_textured_norm.blend",
+    "preview_file": "_index/profiles/dawn_textured_grid.png",
+    "updated_at": "2026-11-21T20:11:02.857701+00:00"
+  },
+  "characters/squirtle.glb": {
+    "id": "squirtle",
+    "category": "characters",
+    "size_bytes": 344344,
+    "mtime_ns": 1795290804934613391,
+    "meta_file": "_index/profiles/squirtle.meta.json",
+    "norm_blend": "_index/profiles/squirtle_norm.blend",
+    "preview_file": "_index/profiles/squirtle_grid.png",
+    "updated_at": "2026-11-21T20:11:59.890589+00:00"
+  }
+}

@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-21T20:11:59.897564+00:00",
+  "blender_version": "4.5.16 LTS",
+  "container_dir": "/app/applet/import_container",
+  "counts": {
+    "total": 3,
+    "characters": 3,
+    "props": 0
+  },
+  "characters": {
+    "blastoise": {
+      "id": "blastoise",
+      "category": "characters",
+      "source_file": "blastoise.glb",
+      "files": {
+        "source": "characters/blastoise.glb",
+        "norm_blend": "_index/profiles/blastoise_norm.blend",
+        "preview_image": "_index/profiles/blastoise_grid.png",
+        "meta_json": "_index/profiles/blastoise.meta.json"
+      },
+      "dimensions_m": [
+        3.724838,
+        4.055749,
+        3.501596
+      ],
+      "bounds_m": {
+        "min": [
+          -1.862419,
+          -2.223024,
+          0.0
+        ],
+        "max": [
+          1.86242,
+          1.832725,
+          3.501596
+        ],
+        "center": [
+          1e-06,
+          -0.195149,
+          1.750798
+        ]
+      },
+      "loose_island_count": 47,
+      "bones": [
+        "_rootJoint",
+        "pm0009_00_00",
+        "Origin_02",
+        "Waist_03",
+        "EndWaist_04",
+        "LArm_01",
+        "LForeArm_05",
+        "LHand_06",
+        "EndLHand_07",
+        "LFingerA_08",
+        "EndLFingerA_09",
+        "LFingerB_010",
+        "EndLFingerB_011",
+        "LFingerC_012",
+        "EndLFingerC_013",
+        "LFeelerA_014",
+        "EndLFeelerA_015",
+        "LFeelerB_016",
+        "LFeelerC_017",
+        "EndLFeelerC_018",
+        "LFeelerD_019",
+        "EndLFeelerD_020",
+        "LThigh_021",
+        "LLeg_022",
+        "LFoot_023",
+        "EndLFoot_024",
+        "LToeA_025",
+        "EndLToeA_026",
+        "LToeB_027",
+        "EndLToeB_028",
+        "LToeC_029",
+        "EndLToeC_030",
+        "LToeD_032",
+        "EndLToeD_033",
+        "Neck_034",
+        "Head_035",
+        "Jaw_036",
+        "EndJaw_037",
+        "LEar_038",
+        "EndLEar_039",
+        "REar_040",
+        "EndREar_041",
+        "RArm_042",
+        "RForeArm_043",
+        "RHand_044",
+        "EndRHand_045",
+        "RFingerA_046",
+        "EndRFingerA_047",
+        "RFingerB_048",
+        "EndRFingerB_049",
+        "RFingerC_050",
+        "EndRFingerC_051",
+        "RFeelerA_052",
+        "EndRFeelerA_053",
+        "RFeelerB_054",
+        "RFeelerC_055",
+        "EndRFeelerC_056",
+        "RFeelerD_057",
+        "EndRFeelerD_058",
+        "RThigh_059",
+        "RLeg_060",
+        "RFoot_061",
+        "EndRFoot_062",
+        "RToeA_063",
+        "EndRToeA_031",
+        "RToeB_064",
+        "EndRToeB_065",
+        "RToeC_066",
+        "EndRToeC_067",
+        "RToeD_068",
+        "EndRToeD_069",
+        "Tail1_070",
+        "Tail2_071",
+        "EndTail2_072",
+        "pm0009_00_BodySkin_073",
+        "pm0009_00_CannonSkin_074",
+        "pm0009_00_CoverSkin_075",
+        "pm0009_00_IrisSkin_076"
+      ],
+      "embedded_animations": [],
+      "material_slots": [
+        {
+          "object": "Object_6",
+          "slot_index": 0,
+          "material": "Material_87",
+          "face_count": 204,
+          "vertex_count": 126,
+          "center_m": [
+            -0.0,
+            -1.422675,
+            3.314676
+          ],
+          "size_m": [
+            0.89628,
+            0.561625,
+            0.36256
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 44
+        },
+        {
+          "object": "Object_7",
+          "slot_index": 0,
+          "material": "Material_86",
+          "face_count": 1830,
+          "vertex_count": 1126,
+          "center_m": [
+            0.0,
+            -0.479926,
+            1.651712
+          ],
+          "size_m": [
+            2.908295,
+            3.486197,
+            3.303424
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 462
+        },
+        {
+          "object": "Object_8",
+          "slot_index": 0,
+          "material": "Material_85",
+          "face_count": 3344,
+          "vertex_count": 1986,
+          "center_m": [
+            -0.0,
+            -0.119993,
+            1.750798
+          ],
+          "size_m": [
+            2.802052,
+            3.905437,
+            3.501595
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 710
+        },
+        {
+          "object": "Object_9",
+          "slot_index": 0,
+          "material": "Material_88",
+          "face_count": 204,
+          "vertex_count": 126,
+          "center_m": [
+            -0.0,
+            -1.423998,
+            3.318677
+          ],
+          "size_m": [
+            0.904855,
+            0.559491,
+            0.363855
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 44
+        },
+        {
+          "object": "Object_11",
+          "slot_index": 0,
+          "material": "Material_86",
+          "face_count": 640,
+          "vertex_count": 526,
+          "center_m": [
+            1e-06,
+            -0.378808,
+            2.591256
+          ],
+          "size_m": [
+            3.724838,
+            2.08437,
+            1.230178
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 414
+        },
+        {
+          "object": "Object_13",
+          "slot_index": 0,
+          "material": "Material_86",
+          "face_count": 184,
+          "vertex_count": 112,
+          "center_m": [
+            -0.0,
+            0.121632,
+            2.43963
+          ],
+          "size_m": [
+            2.62288,
+            1.080199,
+            0.939272
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 36
+        }
+      ]
+    },
+    "dawn_textured": {
+      "id": "dawn_textured",
+      "category": "characters",
+      "source_file": "Dawn_textured.glb",
+      "files": {
+        "source": "characters/Dawn_textured.glb",
+        "norm_blend": "_index/profiles/dawn_textured_norm.blend",
+        "preview_image": "_index/profiles/dawn_textured_grid.png",
+        "meta_json": "_index/profiles/dawn_textured.meta.json"
+      },
+      "dimensions_m": [
+        2.182128,
+        0.872834,
+        2.509469
+      ],
+      "bounds_m": {
+        "min": [
+          -1.091064,
+          -0.394103,
+          0.0
+        ],
+        "max": [
+          1.091064,
+          0.478731,
+          2.509469
+        ],
+        "center": [
+          0.0,
+          0.042314,
+          1.254735
+        ]
+      },
+      "loose_island_count": 26,
+      "bones": [],
+      "embedded_animations": [],
+      "material_slots": [
+        {
+          "object": "Dawn",
+          "slot_index": 0,
+          "material": "hair",
+          "face_count": 1804,
+          "vertex_count": 936,
+          "center_m": [
+            0.0,
+            0.152123,
+            1.892676
+          ],
+          "size_m": [
+            0.749602,
+            0.549853,
+            0.820748
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 66
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 1,
+          "material": "hat_hair",
+          "face_count": 844,
+          "vertex_count": 449,
+          "center_m": [
+            0.0,
+            0.065103,
+            2.309633
+          ],
+          "size_m": [
+            0.500072,
+            0.553538,
+            0.399673
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 48
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 2,
+          "material": "face",
+          "face_count": 2650,
+          "vertex_count": 1402,
+          "center_m": [
+            0.0,
+            0.005579,
+            2.184657
+          ],
+          "size_m": [
+            0.424566,
+            0.40886,
+            0.463658
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 176
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 3,
+          "material": "clothes_white",
+          "face_count": 372,
+          "vertex_count": 201,
+          "center_m": [
+            -0.000326,
+            0.013643,
+            1.829605
+          ],
+          "size_m": [
+            1.616233,
+            0.10088,
+            0.095355
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 28
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 4,
+          "material": "eyes",
+          "face_count": 188,
+          "vertex_count": 120,
+          "center_m": [
+            0.0,
+            -0.13284,
+            2.130214
+          ],
+          "size_m": [
+            0.27298,
+            0.043587,
+            0.131013
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 48
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 5,
+          "material": "skin",
+          "face_count": 3680,
+          "vertex_count": 1900,
+          "center_m": [
+            0.0,
+            -0.022327,
+            1.342097
+          ],
+          "size_m": [
+            2.182128,
+            0.249976,
+            1.308589
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 116
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 6,
+          "material": "yellow_bag",
+          "face_count": 1300,
+          "vertex_count": 692,
+          "center_m": [
+            0.354596,
+            0.025632,
+            1.578654
+          ],
+          "size_m": [
+            0.498352,
+            0.731274,
+            0.664921
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 68
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 7,
+          "material": "clothes_pink",
+          "face_count": 3548,
+          "vertex_count": 1852,
+          "center_m": [
+            -1e-06,
+            0.042314,
+            0.987484
+          ],
+          "size_m": [
+            1.046613,
+            0.872834,
+            1.974967
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 162
+        }
+      ]
+    },
+    "squirtle": {
+      "id": "squirtle",
+      "category": "characters",
+      "source_file": "squirtle.glb",
+      "files": {
+        "source": "characters/squirtle.glb",
+        "norm_blend": "_index/profiles/squirtle_norm.blend",
+        "preview_image": "_index/profiles/squirtle_grid.png",
+        "meta_json": "_index/profiles/squirtle.meta.json"
+      },
+      "dimensions_m": [
+        0.943254,
+        1.20615,
+        1.115952
+      ],
+      "bounds_m": {
+        "min": [
+          -0.471627,
+          -0.550596,
+          0.0
+        ],
+        "max": [
+          0.471627,
+          0.655554,
+          1.115952
+        ],
+        "center": [
+          0.0,
+          0.052479,
+          0.557976
+        ]
+      },
+      "loose_island_count": 9,
+      "bones": [
+        "_rootJoint",
+        "pm0007_00_00",
+        "Origin_02",
+        "Waist_03",
+        "EndWaist_04",
+        "Head_01",
+        "EndHead_05",
+        "Jaw_06",
+        "EndJaw_07",
+        "LArm_08",
+        "LForeArm_09",
+        "LHand_010",
+        "EndLHand_011",
+        "LFingerA_012",
+        "EndLFingerA_013",
+        "LFingerB_014",
+        "EndLFingerB_015",
+        "LFingerC_016",
+        "EndLFingerC_017",
+        "LThigh_018",
+        "LLeg_019",
+        "LFoot_020",
+        "EndLFoot_021",
+        "LToe_022",
+        "EndLToe_023",
+        "RArm_024",
+        "RForeArm_025",
+        "RHand_026",
+        "EndRHand_027",
+        "RFingerA_028",
+        "EndRFingerA_029",
+        "RFingerB_030",
+        "EndRFingerB_031",
+        "RFingerC_032",
+        "EndRFingerC_033",
+        "RThigh_034",
+        "RLeg_035",
+        "RFoot_036",
+        "EndRFoot_037",
+        "RToe_038",
+        "EndRToe_039",
+        "Tail1_040",
+        "Tail2_041",
+        "Tail3_042",
+        "EndTail3_043",
+        "pm0007_00_BodySkin_044",
+        "pm0007_00_ShellSkin_045"
+      ],
+      "embedded_animations": [],
+      "material_slots": [
+        {
+          "object": "Object_6",
+          "slot_index": 0,
+          "material": "Material_60",
+          "face_count": 4564,
+          "vertex_count": 2341,
+          "center_m": [
+            0.0,
+            0.052479,
+            0.557976
+          ],
+          "size_m": [
+            0.943254,
+            1.20615,
+            1.115952
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 108
+        },
+        {
+          "object": "Object_7",
+          "slot_index": 0,
+          "material": "Material_61",
+          "face_count": 184,
+          "vertex_count": 120,
+          "center_m": [
+            0.0,
+            -0.460745,
+            0.88731
+          ],
+          "size_m": [
+            0.458273,
+            0.1211,
+            0.26049
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 52
+        }
+      ]
+    }
+  },
+  "props": {},
+  "assets": [
+    {
+      "id": "blastoise",
+      "category": "characters",
+      "source_file": "blastoise.glb",
+      "files": {
+        "source": "characters/blastoise.glb",
+        "norm_blend": "_index/profiles/blastoise_norm.blend",
+        "preview_image": "_index/profiles/blastoise_grid.png",
+        "meta_json": "_index/profiles/blastoise.meta.json"
+      },
+      "dimensions_m": [
+        3.724838,
+        4.055749,
+        3.501596
+      ],
+      "bounds_m": {
+        "min": [
+          -1.862419,
+          -2.223024,
+          0.0
+        ],
+        "max": [
+          1.86242,
+          1.832725,
+          3.501596
+        ],
+        "center": [
+          1e-06,
+          -0.195149,
+          1.750798
+        ]
+      },
+      "loose_island_count": 47,
+      "bones": [
+        "_rootJoint",
+        "pm0009_00_00",
+        "Origin_02",
+        "Waist_03",
+        "EndWaist_04",
+        "LArm_01",
+        "LForeArm_05",
+        "LHand_06",
+        "EndLHand_07",
+        "LFingerA_08",
+        "EndLFingerA_09",
+        "LFingerB_010",
+        "EndLFingerB_011",
+        "LFingerC_012",
+        "EndLFingerC_013",
+        "LFeelerA_014",
+        "EndLFeelerA_015",
+        "LFeelerB_016",
+        "LFeelerC_017",
+        "EndLFeelerC_018",
+        "LFeelerD_019",
+        "EndLFeelerD_020",
+        "LThigh_021",
+        "LLeg_022",
+        "LFoot_023",
+        "EndLFoot_024",
+        "LToeA_025",
+        "EndLToeA_026",
+        "LToeB_027",
+        "EndLToeB_028",
+        "LToeC_029",
+        "EndLToeC_030",
+        "LToeD_032",
+        "EndLToeD_033",
+        "Neck_034",
+        "Head_035",
+        "Jaw_036",
+        "EndJaw_037",
+        "LEar_038",
+        "EndLEar_039",
+        "REar_040",
+        "EndREar_041",
+        "RArm_042",
+        "RForeArm_043",
+        "RHand_044",
+        "EndRHand_045",
+        "RFingerA_046",
+        "EndRFingerA_047",
+        "RFingerB_048",
+        "EndRFingerB_049",
+        "RFingerC_050",
+        "EndRFingerC_051",
+        "RFeelerA_052",
+        "EndRFeelerA_053",
+        "RFeelerB_054",
+        "RFeelerC_055",
+        "EndRFeelerC_056",
+        "RFeelerD_057",
+        "EndRFeelerD_058",
+        "RThigh_059",
+        "RLeg_060",
+        "RFoot_061",
+        "EndRFoot_062",
+        "RToeA_063",
+        "EndRToeA_031",
+        "RToeB_064",
+        "EndRToeB_065",
+        "RToeC_066",
+        "EndRToeC_067",
+        "RToeD_068",
+        "EndRToeD_069",
+        "Tail1_070",
+        "Tail2_071",
+        "EndTail2_072",
+        "pm0009_00_BodySkin_073",
+        "pm0009_00_CannonSkin_074",
+        "pm0009_00_CoverSkin_075",
+        "pm0009_00_IrisSkin_076"
+      ],
+      "embedded_animations": [],
+      "material_slots": [
+        {
+          "object": "Object_6",
+          "slot_index": 0,
+          "material": "Material_87",
+          "face_count": 204,
+          "vertex_count": 126,
+          "center_m": [
+            -0.0,
+            -1.422675,
+            3.314676
+          ],
+          "size_m": [
+            0.89628,
+            0.561625,
+            0.36256
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 44
+        },
+        {
+          "object": "Object_7",
+          "slot_index": 0,
+          "material": "Material_86",
+          "face_count": 1830,
+          "vertex_count": 1126,
+          "center_m": [
+            0.0,
+            -0.479926,
+            1.651712
+          ],
+          "size_m": [
+            2.908295,
+            3.486197,
+            3.303424
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 462
+        },
+        {
+          "object": "Object_8",
+          "slot_index": 0,
+          "material": "Material_85",
+          "face_count": 3344,
+          "vertex_count": 1986,
+          "center_m": [
+            -0.0,
+            -0.119993,
+            1.750798
+          ],
+          "size_m": [
+            2.802052,
+            3.905437,
+            3.501595
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 710
+        },
+        {
+          "object": "Object_9",
+          "slot_index": 0,
+          "material": "Material_88",
+          "face_count": 204,
+          "vertex_count": 126,
+          "center_m": [
+            -0.0,
+            -1.423998,
+            3.318677
+          ],
+          "size_m": [
+            0.904855,
+            0.559491,
+            0.363855
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 44
+        },
+        {
+          "object": "Object_11",
+          "slot_index": 0,
+          "material": "Material_86",
+          "face_count": 640,
+          "vertex_count": 526,
+          "center_m": [
+            1e-06,
+            -0.378808,
+            2.591256
+          ],
+          "size_m": [
+            3.724838,
+            2.08437,
+            1.230178
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 414
+        },
+        {
+          "object": "Object_13",
+          "slot_index": 0,
+          "material": "Material_86",
+          "face_count": 184,
+          "vertex_count": 112,
+          "center_m": [
+            -0.0,
+            0.121632,
+            2.43963
+          ],
+          "size_m": [
+            2.62288,
+            1.080199,
+            0.939272
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 36
+        }
+      ]
+    },
+    {
+      "id": "dawn_textured",
+      "category": "characters",
+      "source_file": "Dawn_textured.glb",
+      "files": {
+        "source": "characters/Dawn_textured.glb",
+        "norm_blend": "_index/profiles/dawn_textured_norm.blend",
+        "preview_image": "_index/profiles/dawn_textured_grid.png",
+        "meta_json": "_index/profiles/dawn_textured.meta.json"
+      },
+      "dimensions_m": [
+        2.182128,
+        0.872834,
+        2.509469
+      ],
+      "bounds_m": {
+        "min": [
+          -1.091064,
+          -0.394103,
+          0.0
+        ],
+        "max": [
+          1.091064,
+          0.478731,
+          2.509469
+        ],
+        "center": [
+          0.0,
+          0.042314,
+          1.254735
+        ]
+      },
+      "loose_island_count": 26,
+      "bones": [],
+      "embedded_animations": [],
+      "material_slots": [
+        {
+          "object": "Dawn",
+          "slot_index": 0,
+          "material": "hair",
+          "face_count": 1804,
+          "vertex_count": 936,
+          "center_m": [
+            0.0,
+            0.152123,
+            1.892676
+          ],
+          "size_m": [
+            0.749602,
+            0.549853,
+            0.820748
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 66
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 1,
+          "material": "hat_hair",
+          "face_count": 844,
+          "vertex_count": 449,
+          "center_m": [
+            0.0,
+            0.065103,
+            2.309633
+          ],
+          "size_m": [
+            0.500072,
+            0.553538,
+            0.399673
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 48
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 2,
+          "material": "face",
+          "face_count": 2650,
+          "vertex_count": 1402,
+          "center_m": [
+            0.0,
+            0.005579,
+            2.184657
+          ],
+          "size_m": [
+            0.424566,
+            0.40886,
+            0.463658
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 176
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 3,
+          "material": "clothes_white",
+          "face_count": 372,
+          "vertex_count": 201,
+          "center_m": [
+            -0.000326,
+            0.013643,
+            1.829605
+          ],
+          "size_m": [
+            1.616233,
+            0.10088,
+            0.095355
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 28
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 4,
+          "material": "eyes",
+          "face_count": 188,
+          "vertex_count": 120,
+          "center_m": [
+            0.0,
+            -0.13284,
+            2.130214
+          ],
+          "size_m": [
+            0.27298,
+            0.043587,
+            0.131013
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 48
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 5,
+          "material": "skin",
+          "face_count": 3680,
+          "vertex_count": 1900,
+          "center_m": [
+            0.0,
+            -0.022327,
+            1.342097
+          ],
+          "size_m": [
+            2.182128,
+            0.249976,
+            1.308589
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 116
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 6,
+          "material": "yellow_bag",
+          "face_count": 1300,
+          "vertex_count": 692,
+          "center_m": [
+            0.354596,
+            0.025632,
+            1.578654
+          ],
+          "size_m": [
+            0.498352,
+            0.731274,
+            0.664921
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 68
+        },
+        {
+          "object": "Dawn",
+          "slot_index": 7,
+          "material": "clothes_pink",
+          "face_count": 3548,
+          "vertex_count": 1852,
+          "center_m": [
+            -1e-06,
+            0.042314,
+            0.987484
+          ],
+          "size_m": [
+            1.046613,
+            0.872834,
+            1.974967
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 162
+        }
+      ]
+    },
+    {
+      "id": "squirtle",
+      "category": "characters",
+      "source_file": "squirtle.glb",
+      "files": {
+        "source": "characters/squirtle.glb",
+        "norm_blend": "_index/profiles/squirtle_norm.blend",
+        "preview_image": "_index/profiles/squirtle_grid.png",
+        "meta_json": "_index/profiles/squirtle.meta.json"
+      },
+      "dimensions_m": [
+        0.943254,
+        1.20615,
+        1.115952
+      ],
+      "bounds_m": {
+        "min": [
+          -0.471627,
+          -0.550596,
+          0.0
+        ],
+        "max": [
+          0.471627,
+          0.655554,
+          1.115952
+        ],
+        "center": [
+          0.0,
+          0.052479,
+          0.557976
+        ]
+      },
+      "loose_island_count": 9,
+      "bones": [
+        "_rootJoint",
+        "pm0007_00_00",
+        "Origin_02",
+        "Waist_03",
+        "EndWaist_04",
+        "Head_01",
+        "EndHead_05",
+        "Jaw_06",
+        "EndJaw_07",
+        "LArm_08",
+        "LForeArm_09",
+        "LHand_010",
+        "EndLHand_011",
+        "LFingerA_012",
+        "EndLFingerA_013",
+        "LFingerB_014",
+        "EndLFingerB_015",
+        "LFingerC_016",
+        "EndLFingerC_017",
+        "LThigh_018",
+        "LLeg_019",
+        "LFoot_020",
+        "EndLFoot_021",
+        "LToe_022",
+        "EndLToe_023",
+        "RArm_024",
+        "RForeArm_025",
+        "RHand_026",
+        "EndRHand_027",
+        "RFingerA_028",
+        "EndRFingerA_029",
+        "RFingerB_030",
+        "EndRFingerB_031",
+        "RFingerC_032",
+        "EndRFingerC_033",
+        "RThigh_034",
+        "RLeg_035",
+        "RFoot_036",
+        "EndRFoot_037",
+        "RToe_038",
+        "EndRToe_039",
+        "Tail1_040",
+        "Tail2_041",
+        "Tail3_042",
+        "EndTail3_043",
+        "pm0007_00_BodySkin_044",
+        "pm0007_00_ShellSkin_045"
+      ],
+      "embedded_animations": [],
+      "material_slots": [
+        {
+          "object": "Object_6",
+          "slot_index": 0,
+          "material": "Material_60",
+          "face_count": 4564,
+          "vertex_count": 2341,
+          "center_m": [
+            0.0,
+            0.052479,
+            0.557976
+          ],
+          "size_m": [
+            0.943254,
+            1.20615,
+            1.115952
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 108
+        },
+        {
+          "object": "Object_7",
+          "slot_index": 0,
+          "material": "Material_61",
+          "face_count": 184,
+          "vertex_count": 120,
+          "center_m": [
+            0.0,
+            -0.460745,
+            0.88731
+          ],
+          "size_m": [
+            0.458273,
+            0.1211,
+            0.26049
+          ],
+          "is_closed_shell": false,
+          "open_boundary_edges": 52
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1484 @@
+{
+  "schema_version": 1,
+  "id": "blastoise",
+  "category": "characters",
+  "source_file": "blastoise.glb",
+  "source_ext": ".glb",
+  "blender_version": "4.5.16 LTS",
+  "dimensions_m": [
+    3.724838,
+    4.055749,
+    3.501596
+  ],
+  "bounds_m": {
+    "min": [
+      -1.862419,
+      -2.223024,
+      0.0
+    ],
+    "max": [
+      1.86242,
+      1.832725,
+      3.501596
+    ],
+    "center": [
+      1e-06,
+      -0.195149,
+      1.750798
+    ]
+  },
+  "total_evaluated_vertices": 4365,
+  "shader_normalization": [
+    {
+      "material": "Material_85",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "Material_86",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "Material_87",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "Material_88",
+      "action": "unchanged",
+      "reason": null
+    }
+  ],
+  "loose_island_count": 47,
+  "bones": [
+    "_rootJoint",
+    "pm0009_00_00",
+    "Origin_02",
+    "Waist_03",
+    "EndWaist_04",
+    "LArm_01",
+    "LForeArm_05",
+    "LHand_06",
+    "EndLHand_07",
+    "LFingerA_08",
+    "EndLFingerA_09",
+    "LFingerB_010",
+    "EndLFingerB_011",
+    "LFingerC_012",
+    "EndLFingerC_013",
+    "LFeelerA_014",
+    "EndLFeelerA_015",
+    "LFeelerB_016",
+    "LFeelerC_017",
+    "EndLFeelerC_018",
+    "LFeelerD_019",
+    "EndLFeelerD_020",
+    "LThigh_021",
+    "LLeg_022",
+    "LFoot_023",
+    "EndLFoot_024",
+    "LToeA_025",
+    "EndLToeA_026",
+    "LToeB_027",
+    "EndLToeB_028",
+    "LToeC_029",
+    "EndLToeC_030",
+    "LToeD_032",
+    "EndLToeD_033",
+    "Neck_034",
+    "Head_035",
+    "Jaw_036",
+    "EndJaw_037",
+    "LEar_038",
+    "EndLEar_039",
+    "REar_040",
+    "EndREar_041",
+    "RArm_042",
+    "RForeArm_043",
+    "RHand_044",
+    "EndRHand_045",
+    "RFingerA_046",
+    "EndRFingerA_047",
+    "RFingerB_048",
+    "EndRFingerB_049",
+    "RFingerC_050",
+    "EndRFingerC_051",
+    "RFeelerA_052",
+    "EndRFeelerA_053",
+    "RFeelerB_054",
+    "RFeelerC_055",
+    "EndRFeelerC_056",
+    "RFeelerD_057",
+    "EndRFeelerD_058",
+    "RThigh_059",
+    "RLeg_060",
+    "RFoot_061",
+    "EndRFoot_062",
+    "RToeA_063",
+    "EndRToeA_031",
+    "RToeB_064",
+    "EndRToeB_065",
+    "RToeC_066",
+    "EndRToeC_067",
+    "RToeD_068",
+    "EndRToeD_069",
+    "Tail1_070",
+    "Tail2_071",
+    "EndTail2_072",
+    "pm0009_00_BodySkin_073",
+    "pm0009_00_CannonSkin_074",
+    "pm0009_00_CoverSkin_075",
+    "pm0009_00_IrisSkin_076"
+  ],
+  "armatures": [
+    {
+      "name": "Object_3",
+      "bone_count": 78,
+      "bones": [
+        {
+          "name": "_rootJoint",
+          "parent": null,
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            0.025401
+          ],
+          "length_m": 0.0254
+        },
+        {
+          "name": "pm0009_00_00",
+          "parent": "_rootJoint",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            0.025401
+          ],
+          "length_m": 0.0254
+        },
+        {
+          "name": "Origin_02",
+          "parent": "pm0009_00_00",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            1.725768
+          ],
+          "length_m": 1.725767
+        },
+        {
+          "name": "Waist_03",
+          "parent": "Origin_02",
+          "head_m": [
+            -0.0,
+            -0.036718,
+            1.725377
+          ],
+          "tail_m": [
+            -0.710041,
+            -0.036718,
+            1.725377
+          ],
+          "length_m": 0.710041
+        },
+        {
+          "name": "EndWaist_04",
+          "parent": "Waist_03",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            0.710041
+          ],
+          "length_m": 0.710041
+        },
+        {
+          "name": "LArm_01",
+          "parent": "Waist_03",
+          "head_m": [
+            0.982978,
+            -0.747048,
+            2.260847
+          ],
+          "tail_m": [
+            0.502575,
+            -0.747048,
+            2.260847
+          ],
+          "length_m": 0.480403
+        },
+        {
+          "name": "LForeArm_05",
+          "parent": "LArm_01",
+          "head_m": [
+            0.982978,
+            -1.227447,
+            2.26273
+          ],
+          "tail_m": [
+            0.460874,
+            -1.227447,
+            2.26273
+          ],
+          "length_m": 0.522105
+        },
+        {
+          "name": "LHand_06",
+          "parent": "LForeArm_05",
+          "head_m": [
+            0.982978,
+            -1.749548,
+            2.264776
+          ],
+          "tail_m": [
+            0.707086,
+            -1.749548,
+            2.264782
+          ],
+          "length_m": 0.275892
+        },
+        {
+          "name": "EndLHand_07",
+          "parent": "LHand_06",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            0.0,
+            0.275893
+          ],
+          "length_m": 0.275892
+        },
+        {
+          "name": "LFingerA_08",
+          "parent": "LHand_06",
+          "head_m": [
+            0.954348,
+            -2.016957,
+            2.333127
+          ],
+          "tail_m": [
+            2.940113,
+            -2.107597,
+            -0.210668
+          ],
+          "length_m": 3.22837
+        },
+        {
+          "name": "EndLFingerA_09",
+          "parent": "LFingerA_08",
+          "head_m": [
+            1e-06,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            1e-06,
+            0.0,
+            3.228372
+          ],
+          "length_m": 3.22837
+        },
+        {
+          "name": "LFingerB_010",
+          "parent": "LHand_06",
+          "head_m": [
+            1.049341,
+            -2.016821,
+            2.248113
+          ],
+          "tail_m": [
+            1.183797,
+            -2.011723,
+            -0.94635
+          ],
+          "length_m": 3.197295
+        },
+        {
+          "name": "EndLFingerB_011",
+          "parent": "LFingerB_010",
+          "head_m": [
+            0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            3.197296
+          ],
+          "length_m": 3.197295
+        },
+        {
+          "name": "LFingerC_012",
+          "parent": "LHand_06",
+          "head_m": [
+            0.966222,
+            -2.01667,
+            2.153677
+          ],
+          "tail_m": [
+            -0.514012,
+            -1.941702,
+            -0.574354
+          ],
+          "length_m": 3.104653
+        },
+        {
+          "name": "EndLFingerC_013",
+          "parent": "LFingerC_012",
+          "head_m": [
+            0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            3.104654
+          ],
+          "length_m": 3.104653
+        },
+        {
+          "name": "LFeelerA_014",
+          "parent": "Waist_03",
+          "head_m": [
+            0.699737,
+            0.601371,
+            2.433557
+          ],
+          "tail_m": [
+            0.526579,
+            0.532132,
+            2.722531
+          ],
+          "length_m": 0.343924
+        },
+        {
+          "name": "EndLFeelerA_015",
+          "parent": "LFeelerA_014",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            -0.0,
+            0.343925
+          ],
+          "length_m": 0.343924
+        },
+        {
+          "name": "LFeelerB_016",
+          "parent": "LFeelerA_014",
+          "head_m": [
+            0.918117,
+            0.347909,
+            2.51325
+          ],
+          "tail_m": [
+            1.756228,
+            0.544919,
+            1.363198
+          ],
+          "length_m": 1.436614
+        },
+        {
+          "name": "LFeelerC_017",
+          "parent": "LFeelerB_016",
+          "head_m": [
+            1.517783,
+            -0.939491,
+            2.729724
+          ],
+          "tail_m": [
+            3.420547,
+            -0.49222,
+            0.118758
+          ],
+          "length_m": 3.26155
+        },
+        {
+          "name": "EndLFeelerC_018",
+          "parent": "LFeelerC_017",
+          "head_m": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "tail_m": [
+            -0.0,
+            1e-06,
+            3.26155
+          ],
+          "length_m": 3.26155
+        },
+        {
+          "name": "LFeelerD_019",
+          "parent": "Waist_03",
+          "head_m": [
+            0.771583,
+            0.365537,
+            2.438443
+          ],
+          "tail_m": [
+            -0.529198,
+            -0.154599,
+            4.609246
+          ],
+          "length_m": 2.583595
+        },
+        {
+          "name": "EndLFeelerD_020",
+          "parent": "LFeelerD_019",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            2.583596
+          ],
+          "length_m": 2.583595
+        },
+        {
+          "name": "LThigh_021",
+          "parent": "Waist_03",
+          "head_m": [
+            0.765104,
+            -0.122712,
+            1.0647
+          ],
+          "tail_m": [
+            1.098307,
+            0.208066,
+            1.0647
+          ],
+          "length_m": 0.469509
+        },
+        {
+          "name": "LLeg_022",
+          "parent": "LThigh_021",
+          "head_m": [
+            0.832261,
+            -0.190362,
+            0.604969
+          ],
+          "tail_m": [
+            1.128545,
+            0.103767,
+            0.604969
+          ],
+          "length_m": 0.417487
+        },
+        {
+          "name": "LFoot_023",
+          "parent": "LLeg_022",
+          "head_m": [
+            0.727456,
+            -0.084789,
+            0.214885
+          ],
+          "tail_m": [
+            0.967879,
+            0.153885,
+            0.214884
+          ],
+          "length_m": 0.338775
+        },
+        {
+          "name": "EndLFoot_024",
+          "parent": "LFoot_023",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            0.338776
+          ],
+          "length_m": 0.338775
+        },
+        {
+          "name": "LToeA_025",
+          "parent": "LFoot_023",
+          "head_m": [
+            0.988071,
+            -0.347314,
+            0.106949
+          ],
+          "tail_m": [
+            1.735215,
+            0.39439,
+            0.106948
+          ],
+          "length_m": 1.052782
+        },
+        {
+          "name": "EndLToeA_026",
+          "parent": "LToeA_025",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            1.052783
+          ],
+          "length_m": 1.052782
+        },
+        {
+          "name": "LToeB_027",
+          "parent": "LFoot_023",
+          "head_m": [
+            0.508886,
+            0.135383,
+            0.078796
+          ],
+          "tail_m": [
+            0.131014,
+            -0.239737,
+            0.078796
+          ],
+          "length_m": 0.53245
+        },
+        {
+          "name": "EndLToeB_028",
+          "parent": "LToeB_027",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            -0.0,
+            0.532451
+          ],
+          "length_m": 0.53245
+        },
+        {
+          "name": "LToeC_029",
+          "parent": "LFoot_023",
+          "head_m": [
+            1.075683,
+            0.023083,
+            0.070506
+          ],
+          "tail_m": [
+            0.63887,
+            1.00883,
+            0.0608
+          ],
+          "length_m": 1.078238
+        },
+        {
+          "name": "EndLToeC_030",
+          "parent": "LToeC_029",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -1e-06,
+            1.078239
+          ],
+          "length_m": 1.078238
+        },
+        {
+          "name": "LToeD_032",
+          "parent": "LFoot_023",
+          "head_m": [
+            0.617041,
+            -0.432231,
+            0.070505
+          ],
+          "tail_m": [
+            1.306535,
+            -0.743818,
+            0.077316
+          ],
+          "length_m": 0.75666
+        },
+        {
+          "name": "EndLToeD_033",
+          "parent": "LToeD_032",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            0.756661
+          ],
+          "length_m": 0.75666
+        },
+        {
+          "name": "Neck_034",
+          "parent": "Waist_03",
+          "head_m": [
+            -2e-06,
+            -0.520935,
+            2.244695
+          ],
+          "tail_m": [
+            -0.217238,
+            -0.520935,
+            2.244695
+          ],
+          "length_m": 0.217237
+        },
+        {
+          "name": "Head_035",
+          "parent": "Neck_034",
+          "head_m": [
+            -2e-06,
+            -0.62958,
+            2.432812
+          ],
+          "tail_m": [
+            -0.581164,
+            -0.62958,
+            2.432812
+          ],
+          "length_m": 0.581162
+        },
+        {
+          "name": "Jaw_036",
+          "parent": "Head_035",
+          "head_m": [
+            -4e-06,
+            -0.925434,
+            2.933031
+          ],
+          "tail_m": [
+            -3.075568,
+            -0.925434,
+            2.933031
+          ],
+          "length_m": 3.075564
+        },
+        {
+          "name": "EndJaw_037",
+          "parent": "Jaw_036",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            0.0,
+            3.075566
+          ],
+          "length_m": 3.075565
+        },
+        {
+          "name": "LEar_038",
+          "parent": "Head_035",
+          "head_m": [
+            0.455335,
+            -0.955165,
+            3.299673
+          ],
+          "tail_m": [
+            -0.234872,
+            -3.412787,
+            5.643008
+          ],
+          "length_m": 3.465186
+        },
+        {
+          "name": "EndLEar_039",
+          "parent": "LEar_038",
+          "head_m": [
+            -1e-06,
+            -1e-06,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -1e-06,
+            3.465186
+          ],
+          "length_m": 3.465185
+        },
+        {
+          "name": "REar_040",
+          "parent": "Head_035",
+          "head_m": [
+            -0.455346,
+            -0.955165,
+            3.29966
+          ],
+          "tail_m": [
+            -1.145526,
+            1.502453,
+            0.956329
+          ],
+          "length_m": 3.465175
+        },
+        {
+          "name": "EndREar_041",
+          "parent": "REar_040",
+          "head_m": [
+            -0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            0.0,
+            3.465176
+          ],
+          "length_m": 3.465175
+        },
+        {
+          "name": "RArm_042",
+          "parent": "Waist_03",
+          "head_m": [
+            -0.982982,
+            -0.747047,
+            2.260839
+          ],
+          "tail_m": [
+            -1.463385,
+            -0.747047,
+            2.260839
+          ],
+          "length_m": 0.480403
+        },
+        {
+          "name": "RForeArm_043",
+          "parent": "RArm_042",
+          "head_m": [
+            -0.982982,
+            -1.227446,
+            2.262721
+          ],
+          "tail_m": [
+            -1.505089,
+            -1.227446,
+            2.262721
+          ],
+          "length_m": 0.522108
+        },
+        {
+          "name": "RHand_044",
+          "parent": "RForeArm_043",
+          "head_m": [
+            -0.982982,
+            -1.74955,
+            2.264767
+          ],
+          "tail_m": [
+            -1.258874,
+            -1.74955,
+            2.264774
+          ],
+          "length_m": 0.275892
+        },
+        {
+          "name": "EndRHand_045",
+          "parent": "RHand_044",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            0.275893
+          ],
+          "length_m": 0.275892
+        },
+        {
+          "name": "RFingerA_046",
+          "parent": "RHand_044",
+          "head_m": [
+            -0.954349,
+            -2.016959,
+            2.333118
+          ],
+          "tail_m": [
+            1.031393,
+            -1.926319,
+            4.876925
+          ],
+          "length_m": 3.228366
+        },
+        {
+          "name": "EndRFingerA_047",
+          "parent": "RFingerA_046",
+          "head_m": [
+            -0.0,
+            -0.0,
+            -0.0
+          ],
+          "tail_m": [
+            1e-06,
+            -0.0,
+            3.228366
+          ],
+          "length_m": 3.228366
+        },
+        {
+          "name": "RFingerB_048",
+          "parent": "RHand_044",
+          "head_m": [
+            -1.049345,
+            -2.016823,
+            2.248106
+          ],
+          "tail_m": [
+            -0.914767,
+            -2.021921,
+            5.442561
+          ],
+          "length_m": 3.197293
+        },
+        {
+          "name": "EndRFingerB_049",
+          "parent": "RFingerB_048",
+          "head_m": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            3.197293
+          ],
+          "length_m": 3.197293
+        },
+        {
+          "name": "RFingerC_050",
+          "parent": "RHand_044",
+          "head_m": [
+            -0.96623,
+            -2.016672,
+            2.153667
+          ],
+          "tail_m": [
+            -2.446482,
+            -2.09164,
+            4.881686
+          ],
+          "length_m": 3.10465
+        },
+        {
+          "name": "EndRFingerC_051",
+          "parent": "RFingerC_050",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            0.0,
+            3.104651
+          ],
+          "length_m": 3.10465
+        },
+        {
+          "name": "RFeelerA_052",
+          "parent": "Waist_03",
+          "head_m": [
+            -0.699742,
+            0.601371,
+            2.433553
+          ],
+          "tail_m": [
+            -0.872897,
+            0.670611,
+            2.144577
+          ],
+          "length_m": 0.343924
+        },
+        {
+          "name": "EndRFeelerA_053",
+          "parent": "RFeelerA_052",
+          "head_m": [
+            -0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            0.0,
+            0.343925
+          ],
+          "length_m": 0.343924
+        },
+        {
+          "name": "RFeelerB_054",
+          "parent": "RFeelerA_052",
+          "head_m": [
+            -0.918124,
+            0.347911,
+            2.513245
+          ],
+          "tail_m": [
+            -0.080016,
+            0.150901,
+            3.663301
+          ],
+          "length_m": 1.436617
+        },
+        {
+          "name": "RFeelerC_055",
+          "parent": "RFeelerB_054",
+          "head_m": [
+            -1.51779,
+            -0.939492,
+            2.729713
+          ],
+          "tail_m": [
+            0.384963,
+            -1.386763,
+            5.34068
+          ],
+          "length_m": 3.261544
+        },
+        {
+          "name": "EndRFeelerC_056",
+          "parent": "RFeelerC_055",
+          "head_m": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "tail_m": [
+            1e-06,
+            -0.0,
+            3.261544
+          ],
+          "length_m": 3.261544
+        },
+        {
+          "name": "RFeelerD_057",
+          "parent": "Waist_03",
+          "head_m": [
+            -0.771588,
+            0.365537,
+            2.438438
+          ],
+          "tail_m": [
+            -2.072349,
+            0.88567,
+            0.267626
+          ],
+          "length_m": 2.583591
+        },
+        {
+          "name": "EndRFeelerD_058",
+          "parent": "RFeelerD_057",
+          "head_m": [
+            -0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            -0.0,
+            2.583592
+          ],
+          "length_m": 2.583591
+        },
+        {
+          "name": "RThigh_059",
+          "parent": "Waist_03",
+          "head_m": [
+            -0.765099,
+            -0.122711,
+            1.064692
+          ],
+          "tail_m": [
+            -0.431896,
+            -0.453489,
+            1.064693
+          ],
+          "length_m": 0.469509
+        },
+        {
+          "name": "RLeg_060",
+          "parent": "RThigh_059",
+          "head_m": [
+            -0.832254,
+            -0.190361,
+            0.604961
+          ],
+          "tail_m": [
+            -0.53597,
+            -0.484489,
+            0.604963
+          ],
+          "length_m": 0.417487
+        },
+        {
+          "name": "RFoot_061",
+          "parent": "RLeg_060",
+          "head_m": [
+            -0.727447,
+            -0.084788,
+            0.214877
+          ],
+          "tail_m": [
+            -0.487024,
+            -0.323462,
+            0.214879
+          ],
+          "length_m": 0.338775
+        },
+        {
+          "name": "EndRFoot_062",
+          "parent": "RFoot_061",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            0.338777
+          ],
+          "length_m": 0.338775
+        },
+        {
+          "name": "RToeA_063",
+          "parent": "RFoot_061",
+          "head_m": [
+            -0.98806,
+            -0.34731,
+            0.106939
+          ],
+          "tail_m": [
+            -0.240927,
+            -1.089008,
+            0.106944
+          ],
+          "length_m": 1.05277
+        },
+        {
+          "name": "EndRToeA_031",
+          "parent": "RToeA_063",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            -1e-06,
+            1.052771
+          ],
+          "length_m": 1.05277
+        },
+        {
+          "name": "RToeB_064",
+          "parent": "RFoot_061",
+          "head_m": [
+            -0.508877,
+            0.135384,
+            0.07879
+          ],
+          "tail_m": [
+            -0.88674,
+            0.510499,
+            0.078787
+          ],
+          "length_m": 0.53244
+        },
+        {
+          "name": "EndRToeB_065",
+          "parent": "RToeB_064",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            0.532441
+          ],
+          "length_m": 0.53244
+        },
+        {
+          "name": "RToeC_066",
+          "parent": "RFoot_061",
+          "head_m": [
+            -1.075673,
+            0.023084,
+            0.070496
+          ],
+          "tail_m": [
+            -1.512481,
+            -0.962653,
+            0.0802
+          ],
+          "length_m": 1.078228
+        },
+        {
+          "name": "EndRToeC_067",
+          "parent": "RToeC_066",
+          "head_m": [
+            -1e-06,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            -0.0,
+            1.078229
+          ],
+          "length_m": 1.078228
+        },
+        {
+          "name": "RToeD_068",
+          "parent": "RFoot_061",
+          "head_m": [
+            -0.617031,
+            -0.432229,
+            0.070498
+          ],
+          "tail_m": [
+            0.072453,
+            -0.120645,
+            0.063693
+          ],
+          "length_m": 0.75665
+        },
+        {
+          "name": "EndRToeD_069",
+          "parent": "RToeD_068",
+          "head_m": [
+            -0.0,
+            -0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            -0.0,
+            0.756652
+          ],
+          "length_m": 0.75665
+        },
+        {
+          "name": "Tail1_070",
+          "parent": "Waist_03",
+          "head_m": [
+            4e-06,
+            0.890512,
+            0.591143
+          ],
+          "tail_m": [
+            0.463966,
+            0.890512,
+            0.591146
+          ],
+          "length_m": 0.463962
+        },
+        {
+          "name": "Tail2_071",
+          "parent": "Tail1_070",
+          "head_m": [
+            6e-06,
+            1.300154,
+            0.373303
+          ],
+          "tail_m": [
+            1.352689,
+            1.300154,
+            0.373311
+          ],
+          "length_m": 1.352684
+        },
+        {
+          "name": "EndTail2_072",
+          "parent": "Tail2_071",
+          "head_m": [
+            -0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            -0.0,
+            0.0,
+            1.352685
+          ],
+          "length_m": 1.352684
+        },
+        {
+          "name": "pm0009_00_BodySkin_073",
+          "parent": "pm0009_00_00",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            0.025401
+          ],
+          "length_m": 0.0254
+        },
+        {
+          "name": "pm0009_00_CannonSkin_074",
+          "parent": "pm0009_00_00",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            0.025401
+          ],
+          "length_m": 0.0254
+        },
+        {
+          "name": "pm0009_00_CoverSkin_075",
+          "parent": "pm0009_00_00",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            0.025401
+          ],
+          "length_m": 0.0254
+        },
+        {
+          "name": "pm0009_00_IrisSkin_076",
+          "parent": "pm0009_00_00",
+          "head_m": [
+            0.0,
+            0.0,
+            1e-06
+          ],
+          "tail_m": [
+            0.0,
+            0.0,
+            0.025401
+          ],
+          "length_m": 0.0254
+        }
+      ]
+    }
+  ],
+  "embedded_animations": [],
+  "animation_clips": [],
+  "material_slots": [
+    {
+      "object": "Object_6",
+      "slot_index": 0,
+      "material": "Material_87",
+      "face_count": 204,
+      "vertex_count": 126,
+      "center_m": [
+        -0.0,
+        -1.422675,
+        3.314676
+      ],
+      "size_m": [
+        0.89628,
+        0.561625,
+        0.36256
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 44
+    },
+    {
+      "object": "Object_7",
+      "slot_index": 0,
+      "material": "Material_86",
+      "face_count": 1830,
+      "vertex_count": 1126,
+      "center_m": [
+        0.0,
+        -0.479926,
+        1.651712
+      ],
+      "size_m": [
+        2.908295,
+        3.486197,
+        3.303424
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 462
+    },
+    {
+      "object": "Object_8",
+      "slot_index": 0,
+      "material": "Material_85",
+      "face_count": 3344,
+      "vertex_count": 1986,
+      "center_m": [
+        -0.0,
+        -0.119993,
+        1.750798
+      ],
+      "size_m": [
+        2.802052,
+        3.905437,
+        3.501595
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 710
+    },
+    {
+      "object": "Object_9",
+      "slot_index": 0,
+      "material": "Material_88",
+      "face_count": 204,
+      "vertex_count": 126,
+      "center_m": [
+        -0.0,
+        -1.423998,
+        3.318677
+      ],
+      "size_m": [
+        0.904855,
+        0.559491,
+        0.363855
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 44
+    },
+    {
+      "object": "Object_11",
+      "slot_index": 0,
+      "material": "Material_86",
+      "face_count": 640,
+      "vertex_count": 526,
+      "center_m": [
+        1e-06,
+        -0.378808,
+        2.591256
+      ],
+      "size_m": [
+        3.724838,
+        2.08437,
+        1.230178
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 414
+    },
+    {
+      "object": "Object_13",
+      "slot_index": 0,
+      "material": "Material_86",
+      "face_count": 184,
+      "vertex_count": 112,
+      "center_m": [
+        -0.0,
+        0.121632,
+        2.43963
+      ],
+      "size_m": [
+        2.62288,
+        1.080199,
+        0.939272
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 36
+    }
+  ],
+  "ortho_bounds": {
+    "front": {
+      "projection": "ORTHO",
+      "width_px": 768,
+      "height_px": 768,
+      "ortho_scale_m": 5.43470422,
+      "pixels_per_meter": 141.314038,
+      "h_axis": "+X",
+      "v_axis": "+Z",
+      "h_left_m": -2.71735153,
+      "h_right_m": 2.71735269,
+      "v_bottom_m": -1.07524844,
+      "v_top_m": 4.35945577
+    },
+    "back": {
+      "projection": "ORTHO",
+      "width_px": 768,
+      "height_px": 768,
+      "ortho_scale_m": 5.43470422,
+      "pixels_per_meter": 141.314038,
+      "h_axis": "-X",
+      "v_axis": "+Z",
+      "h_left_m": 2.71735269,
+      "h_right_m": -2.71735153,
+      "v_bottom_m": -1.07524844,
+      "v_top_m": 4.35945577
+    },
+    "side": {
+      "projection": "ORTHO",
+      "width_px": 768,
+      "height_px": 768,
+      "ortho_scale_m": 5.43470422,
+      "pixels_per_meter": 141.314038,
+      "h_axis": "+Y",
+      "v_axis": "+Z",
+      "h_left_m": -2.91250149,
+      "h_right_m": 2.52220273,
+      "v_bottom_m": -1.07524844,
+      "v_top_m": 4.35945577
+    },
+    "iso": {
+      "projection": "PERSP",
+      "width_px": 768,
+      "height_px": 768,
+      "lens_mm": 50.0
+    }
+  },
+  "files": {
+    "source": "characters/blastoise.glb",
+    "norm_blend": "_index/profiles/blastoise_norm.blend",
+    "preview_image": "_index/profiles/blastoise_grid.png",
+    "meta_json": "_index/profiles/blastoise.meta.json"
+  },
+  "inspected_at": "2026-11-21T20:10:14.171328+00:00"
+}

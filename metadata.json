@@ -1,0 +1,6 @@
+{
+  "name": "Persephone Workspace & Batch Manager",
+  "description": "Local file manager for import_container 3D assets, Pre-Prod profiling, and Persephone episode batch inputs and outputs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

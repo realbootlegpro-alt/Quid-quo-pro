@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "id": "dawn_textured",
+  "category": "characters",
+  "source_file": "Dawn_textured.glb",
+  "source_ext": ".glb",
+  "blender_version": "4.5.16 LTS",
+  "dimensions_m": [
+    2.182128,
+    0.872834,
+    2.509469
+  ],
+  "bounds_m": {
+    "min": [
+      -1.091064,
+      -0.394103,
+      0.0
+    ],
+    "max": [
+      1.091064,
+      0.478731,
+      2.509469
+    ],
+    "center": [
+      0.0,
+      0.042314,
+      1.254735
+    ]
+  },
+  "total_evaluated_vertices": 43158,
+  "shader_normalization": [
+    {
+      "material": "clothes_pink",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "clothes_white",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "eyes",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "face",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "hair",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "hat_hair",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "skin",
+      "action": "unchanged",
+      "reason": null
+    },
+    {
+      "material": "yellow_bag",
+      "action": "unchanged",
+      "reason": null
+    }
+  ],
+  "loose_island_count": 26,
+  "bones": [],
+  "armatures": [],
+  "embedded_animations": [],
+  "animation_clips": [],
+  "material_slots": [
+    {
+      "object": "Dawn",
+      "slot_index": 0,
+      "material": "hair",
+      "face_count": 1804,
+      "vertex_count": 936,
+      "center_m": [
+        0.0,
+        0.152123,
+        1.892676
+      ],
+      "size_m": [
+        0.749602,
+        0.549853,
+        0.820748
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 66
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 1,
+      "material": "hat_hair",
+      "face_count": 844,
+      "vertex_count": 449,
+      "center_m": [
+        0.0,
+        0.065103,
+        2.309633
+      ],
+      "size_m": [
+        0.500072,
+        0.553538,
+        0.399673
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 48
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 2,
+      "material": "face",
+      "face_count": 2650,
+      "vertex_count": 1402,
+      "center_m": [
+        0.0,
+        0.005579,
+        2.184657
+      ],
+      "size_m": [
+        0.424566,
+        0.40886,
+        0.463658
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 176
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 3,
+      "material": "clothes_white",
+      "face_count": 372,
+      "vertex_count": 201,
+      "center_m": [
+        -0.000326,
+        0.013643,
+        1.829605
+      ],
+      "size_m": [
+        1.616233,
+        0.10088,
+        0.095355
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 28
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 4,
+      "material": "eyes",
+      "face_count": 188,
+      "vertex_count": 120,
+      "center_m": [
+        0.0,
+        -0.13284,
+        2.130214
+      ],
+      "size_m": [
+        0.27298,
+        0.043587,
+        0.131013
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 48
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 5,
+      "material": "skin",
+      "face_count": 3680,
+      "vertex_count": 1900,
+      "center_m": [
+        0.0,
+        -0.022327,
+        1.342097
+      ],
+      "size_m": [
+        2.182128,
+        0.249976,
+        1.308589
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 116
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 6,
+      "material": "yellow_bag",
+      "face_count": 1300,
+      "vertex_count": 692,
+      "center_m": [
+        0.354596,
+        0.025632,
+        1.578654
+      ],
+      "size_m": [
+        0.498352,
+        0.731274,
+        0.664921
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 68
+    },
+    {
+      "object": "Dawn",
+      "slot_index": 7,
+      "material": "clothes_pink",
+      "face_count": 3548,
+      "vertex_count": 1852,
+      "center_m": [
+        -1e-06,
+        0.042314,
+        0.987484
+      ],
+      "size_m": [
+        1.046613,
+        0.872834,
+        1.974967
+      ],
+      "is_closed_shell": false,
+      "open_boundary_edges": 162
+    }
+  ],
+  "ortho_bounds": {
+    "front": {
+      "projection": "ORTHO",
+      "width_px": 768,
+      "height_px": 768,
+      "ortho_scale_m": 3.3626885,
+      "pixels_per_meter": 228.388683,
+      "h_axis": "+X",
+      "v_axis": "+Z",
+      "h_left_m": -1.68134425,
+      "h_right_m": 1.68134425,
+      "v_bottom_m": -0.49386351,
+      "v_top_m": 2.868825
+    },
+    "back": {
+      "projection": "ORTHO",
+      "width_px": 768,
+      "height_px": 768,
+      "ortho_scale_m": 3.3626885,
+      "pixels_per_meter": 228.388683,
+      "h_axis": "-X",
+      "v_axis": "+Z",
+      "h_left_m": 1.68134425,
+      "h_right_m": -1.68134425,
+      "v_bottom_m": -0.49386351,
+      "v_top_m": 2.868825
+    },
+    "side": {
+      "projection": "ORTHO",
+      "width_px": 768,
+      "height_px": 768,
+      "ortho_scale_m": 3.3626885,
+      "pixels_per_meter": 228.388683,
+      "h_axis": "+Y",
+      "v_axis": "+Z",
+      "h_left_m": -1.63903024,
+      "h_right_m": 1.72365826,
+      "v_bottom_m": -0.49386351,
+      "v_top_m": 2.868825
+    },
+    "iso": {
+      "projection": "PERSP",
+      "width_px": 768,
+      "height_px": 768,
+      "lens_mm": 50.0
+    }
+  },
+  "files": {
+    "source": "characters/Dawn_textured.glb",
+    "norm_blend": "_index/profiles/dawn_textured_norm.blend",
+    "preview_image": "_index/profiles/dawn_textured_grid.png",
+    "meta_json": "_index/profiles/dawn_textured.meta.json"
+  },
+  "inspected_at": "2026-11-21T20:11:02.857701+00:00"
+}
